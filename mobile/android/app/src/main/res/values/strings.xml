@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_description">Menghitung berapa kali kamu scroll di aplikasi yang kamu pilih untuk dipantau (default: Instagram, TikTok, YouTube, Facebook) untuk kesehatan digital. Aplikasi tidak pernah membaca teks, kata sandi, atau pesan pribadi.</string>
+</resources>

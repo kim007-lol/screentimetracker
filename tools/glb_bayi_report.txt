@@ -1,0 +1,170 @@
+== mobile/assets/3d/momo_bayi.glb
+nodes=25 meshes=3 skins=1
+
+-- animation 'idle_fresh' channels=26
+  Root[1].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Hips[2].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Spine[3].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.77deg
+  Chest[4].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.32deg
+  Neck[5].rotation keys=241 dur=8.00 first=(0.0043,0.0074,-0.0030,1.0000) 1.04deg axis(0.48,0.81,-0.33) last=(0.0043,0.0074,-0.0030,1.0000) 1.04deg axis(0.48,0.81,-0.33) maxdev=3.51deg
+  Head[6].rotation keys=241 dur=8.00 first=(0.0022,0.0043,-0.0014,1.0000) 0.57deg axis(0.44,0.85,-0.27) last=(0.0022,0.0043,-0.0014,1.0000) 0.57deg axis(0.44,0.85,-0.27) maxdev=2.00deg
+  Ear_L[7].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=13.33deg
+  Ear_R[8].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=11.93deg
+  Arm_L[9].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=1.58deg
+  Forearm_L[10].rotation keys=241 dur=8.00 first=(0.0027,0.0000,0.0070,1.0000) 0.86deg axis(0.36,0.00,0.93) last=(0.0027,0.0000,0.0070,1.0000) 0.86deg axis(0.36,0.00,0.93) maxdev=1.11deg
+  Paw_L[11].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.60deg
+  Arm_R[12].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=29.78deg
+  Forearm_R[13].rotation keys=241 dur=8.00 first=(-0.0027,0.0000,0.0000,1.0000) 0.31deg axis(-1.00,0.00,0.00) last=(-0.0027,0.0000,0.0000,1.0000) 0.31deg axis(-1.00,0.00,0.00) maxdev=10.02deg
+  Paw_R[14].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=17.99deg
+  Leg_L[15].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.45deg
+  Foot_L[16].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.35deg
+  Leg_R[17].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.45deg
+  Foot_R[18].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.35deg
+  Tail_1[19].rotation keys=241 dur=8.00 first=(-0.0087,0.0000,0.0000,1.0000) 1.00deg axis(-1.00,0.00,0.00) last=(-0.0087,0.0000,0.0000,1.0000) 1.00deg axis(-1.00,0.00,0.00) maxdev=9.12deg
+  Tail_2[20].rotation keys=241 dur=8.00 first=(-0.0174,-0.0627,-0.0011,0.9979) 7.46deg axis(-0.27,-0.96,-0.02) last=(-0.0174,-0.0627,-0.0011,0.9979) 7.46deg axis(-0.27,-0.96,-0.02) maxdev=22.26deg
+  Tail_3[21].rotation keys=241 dur=8.00 first=(-0.0259,-0.1535,-0.0040,0.9878) 17.92deg axis(-0.17,-0.99,-0.03) last=(-0.0259,-0.1535,-0.0040,0.9878) 17.92deg axis(-0.17,-0.99,-0.03) maxdev=38.69deg
+  Tail_Tip[22].rotation keys=241 dur=8.00 first=(-0.0297,-0.2328,-0.0071,0.9721) 27.15deg axis(-0.13,-0.99,-0.03) last=(-0.0297,-0.2328,-0.0071,0.9721) 27.15deg axis(-0.13,-0.99,-0.03) maxdev=53.93deg
+  Hips[2].translation keys=241 dur=8.00 first=(0.0620,0.5324,-0.0906) last=(0.0620,0.5324,-0.0906) spread=0.0035
+  Chest[4].scale keys=241 dur=8.00 first=(1.0000,1.0000,1.0000) last=(1.0000,1.0000,1.0000) spread=0.0270
+  Blink_L[23].weights keys=241 dur=8.00 first=0.0000 last=0.0000 spread=1.0000
+  Blink_R[24].weights keys=241 dur=8.00 first=0.0000 last=0.0000 spread=1.0000
+
+-- animation 'idle_tired' channels=26
+  Root[1].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Hips[2].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Spine[3].rotation keys=241 dur=8.00 first=(0.0523,0.0000,0.0000,0.9986) 6.00deg axis(1.00,0.00,0.00) last=(0.0523,0.0000,0.0000,0.9986) 6.00deg axis(1.00,0.00,0.00) maxdev=1.46deg
+  Chest[4].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.64deg
+  Neck[5].rotation keys=241 dur=8.00 first=(0.1074,0.0080,-0.0048,0.9942) 12.38deg axis(1.00,0.07,-0.04) last=(0.1074,0.0080,-0.0048,0.9942) 12.38deg axis(1.00,0.07,-0.04) maxdev=4.47deg
+  Head[6].rotation keys=241 dur=8.00 first=(0.0193,0.0024,-0.0012,0.9998) 2.23deg axis(0.99,0.12,-0.06) last=(0.0193,0.0024,-0.0012,0.9998) 2.23deg axis(0.99,0.12,-0.06) maxdev=1.23deg
+  Ear_L[7].rotation keys=241 dur=8.00 first=(0.0000,0.0000,-0.1132,0.9936) 13.00deg axis(0.00,0.00,-1.00) last=(0.0000,0.0000,-0.1132,0.9936) 13.00deg axis(0.00,0.00,-1.00) maxdev=5.19deg
+  Ear_R[8].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.1132,0.9936) 13.00deg axis(0.00,0.00,1.00) last=(0.0000,0.0000,0.1132,0.9936) 13.00deg axis(0.00,0.00,1.00) maxdev=5.19deg
+  Arm_L[9].rotation keys=241 dur=8.00 first=(0.0027,0.0001,0.0349,0.9994) 4.01deg axis(0.08,0.00,1.00) last=(0.0027,0.0001,0.0349,0.9994) 4.01deg axis(0.08,0.00,1.00) maxdev=1.11deg
+  Forearm_L[10].rotation keys=241 dur=8.00 first=(0.0000,0.0000,-0.0523,0.9986) 6.00deg axis(0.00,0.00,-1.00) last=(0.0000,0.0000,-0.0523,0.9986) 6.00deg axis(0.00,0.00,-1.00) maxdev=0.00deg
+  Paw_L[11].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=1.20deg
+  Arm_R[12].rotation keys=241 dur=8.00 first=(-0.0027,0.0001,-0.0349,0.9994) 4.01deg axis(-0.08,0.00,-1.00) last=(-0.0027,0.0001,-0.0349,0.9994) 4.01deg axis(-0.08,0.00,-1.00) maxdev=1.11deg
+  Forearm_R[13].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0523,0.9986) 6.00deg axis(0.00,0.00,1.00) last=(0.0000,0.0000,0.0523,0.9986) 6.00deg axis(0.00,0.00,1.00) maxdev=0.00deg
+  Paw_R[14].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=1.20deg
+  Leg_L[15].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.30deg
+  Foot_L[16].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.20deg
+  Leg_R[17].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.30deg
+  Foot_R[18].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.20deg
+  Tail_1[19].rotation keys=241 dur=8.00 first=(-0.0958,0.0000,0.0000,0.9954) 11.00deg axis(-1.00,0.00,0.00) last=(-0.0958,0.0000,0.0000,0.9954) 11.00deg axis(-1.00,0.00,0.00) maxdev=4.00deg
+  Tail_2[20].rotation keys=241 dur=8.00 first=(-0.0784,-0.0227,-0.0018,0.9967) 9.37deg axis(-0.96,-0.28,-0.02) last=(-0.0784,-0.0227,-0.0018,0.9967) 9.37deg axis(-0.96,-0.28,-0.02) maxdev=8.61deg
+  Tail_3[21].rotation keys=241 dur=8.00 first=(-0.0610,-0.0546,-0.0033,0.9966) 9.39deg axis(-0.74,-0.67,-0.04) last=(-0.0610,-0.0546,-0.0033,0.9966) 9.39deg axis(-0.74,-0.67,-0.04) maxdev=14.27deg
+  Tail_Tip[22].rotation keys=241 dur=8.00 first=(-0.0348,-0.0850,-0.0030,0.9958) 10.54deg axis(-0.38,-0.93,-0.03) last=(-0.0348,-0.0850,-0.0030,0.9958) 10.54deg axis(-0.38,-0.93,-0.03) maxdev=19.76deg
+  Hips[2].translation keys=241 dur=8.00 first=(0.0620,0.5064,-0.0906) last=(0.0620,0.5064,-0.0906) spread=0.0030
+  Chest[4].scale keys=241 dur=8.00 first=(0.9920,0.9880,0.9920) last=(0.9920,0.9880,0.9920) spread=0.0150
+  Blink_L[23].weights keys=241 dur=8.00 first=0.5200 last=0.5200 spread=0.3600
+  Blink_R[24].weights keys=241 dur=8.00 first=0.5200 last=0.5200 spread=0.3600
+
+-- animation 'idle_critical' channels=26
+  Root[1].rotation keys=91 dur=3.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Hips[2].rotation keys=91 dur=3.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Spine[3].rotation keys=91 dur=3.00 first=(0.0741,0.0000,0.0000,0.9973) 8.50deg axis(1.00,0.00,0.00) last=(0.0741,0.0000,0.0000,0.9973) 8.50deg axis(1.00,0.00,0.00) maxdev=1.16deg
+  Chest[4].rotation keys=91 dur=3.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Neck[5].rotation keys=91 dur=3.00 first=(0.1557,0.0000,0.0000,0.9878) 17.92deg axis(1.00,0.00,0.00) last=(0.1557,0.0000,0.0000,0.9878) 17.92deg axis(1.00,0.00,0.00) maxdev=2.73deg
+  Head[6].rotation keys=91 dur=3.00 first=(0.0269,0.0000,0.0000,0.9996) 3.08deg axis(1.00,0.00,0.00) last=(0.0269,0.0000,0.0000,0.9996) 3.08deg axis(1.00,0.00,0.00) maxdev=0.56deg
+  Ear_L[7].rotation keys=91 dur=3.00 first=(0.0000,0.0000,-0.1305,0.9914) 15.00deg axis(0.00,0.00,-1.00) last=(0.0000,0.0000,-0.1305,0.9914) 15.00deg axis(0.00,0.00,-1.00) maxdev=2.49deg
+  Ear_R[8].rotation keys=91 dur=3.00 first=(0.0000,0.0000,0.1305,0.9914) 15.00deg axis(0.00,0.00,1.00) last=(0.0000,0.0000,0.1305,0.9914) 15.00deg axis(0.00,0.00,1.00) maxdev=2.49deg
+  Arm_L[9].rotation keys=91 dur=3.00 first=(0.0000,0.0000,0.0698,0.9976) 8.00deg axis(0.00,0.00,1.00) last=(0.0000,0.0000,0.0698,0.9976) 8.00deg axis(0.00,0.00,1.00) maxdev=0.99deg
+  Forearm_L[10].rotation keys=91 dur=3.00 first=(0.0000,0.0000,-0.0698,0.9976) 8.00deg axis(0.00,0.00,-1.00) last=(0.0000,0.0000,-0.0698,0.9976) 8.00deg axis(0.00,0.00,-1.00) maxdev=0.00deg
+  Paw_L[11].rotation keys=91 dur=3.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=1.49deg
+  Arm_R[12].rotation keys=91 dur=3.00 first=(0.0000,0.0000,-0.0698,0.9976) 8.00deg axis(0.00,0.00,-1.00) last=(0.0000,0.0000,-0.0698,0.9976) 8.00deg axis(0.00,0.00,-1.00) maxdev=0.99deg
+  Forearm_R[13].rotation keys=91 dur=3.00 first=(0.0000,0.0000,0.0698,0.9976) 8.00deg axis(0.00,0.00,1.00) last=(0.0000,0.0000,0.0698,0.9976) 8.00deg axis(0.00,0.00,1.00) maxdev=0.00deg
+  Paw_R[14].rotation keys=91 dur=3.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=1.49deg
+  Leg_L[15].rotation keys=91 dur=3.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.40deg
+  Foot_L[16].rotation keys=91 dur=3.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Leg_R[17].rotation keys=91 dur=3.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.40deg
+  Foot_R[18].rotation keys=91 dur=3.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Tail_1[19].rotation keys=91 dur=3.00 first=(-0.1305,0.0000,0.0000,0.9914) 15.00deg axis(-1.00,0.00,0.00) last=(-0.1305,0.0000,0.0000,0.9914) 15.00deg axis(-1.00,0.00,0.00) maxdev=3.00deg
+  Tail_2[20].rotation keys=91 dur=3.00 first=(-0.1045,-0.0166,-0.0017,0.9944) 12.15deg axis(-0.99,-0.16,-0.02) last=(-0.1045,-0.0166,-0.0017,0.9944) 12.15deg axis(-0.99,-0.16,-0.02) maxdev=5.92deg
+  Tail_3[21].rotation keys=91 dur=3.00 first=(-0.0784,-0.0366,-0.0029,0.9962) 9.93deg axis(-0.91,-0.42,-0.03) last=(-0.0784,-0.0366,-0.0029,0.9962) 9.93deg axis(-0.91,-0.42,-0.03) maxdev=11.05deg
+  Tail_Tip[22].rotation keys=91 dur=3.00 first=(-0.0436,0.0000,0.0000,0.9990) 5.00deg axis(-1.00,0.00,0.00) last=(-0.0436,0.0000,0.0000,0.9990) 5.00deg axis(-1.00,0.00,0.00) maxdev=2.95deg
+  Hips[2].translation keys=91 dur=3.00 first=(0.0620,0.4984,-0.0906) last=(0.0620,0.4984,-0.0906) spread=0.0015
+  Chest[4].scale keys=91 dur=3.00 first=(0.9880,0.9840,0.9880) last=(0.9880,0.9840,0.9880) spread=0.0070
+  Blink_L[23].weights keys=91 dur=3.00 first=0.3000 last=0.3000 spread=0.6000
+  Blink_R[24].weights keys=91 dur=3.00 first=0.3000 last=0.3000 spread=0.6000
+
+-- animation 'sleep' channels=26
+  Root[1].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Hips[2].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Spine[3].rotation keys=241 dur=8.00 first=(0.0915,0.0000,0.0000,0.9958) 10.50deg axis(1.00,0.00,0.00) last=(0.0915,0.0000,0.0000,0.9958) 10.50deg axis(1.00,0.00,0.00) maxdev=1.09deg
+  Chest[4].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Neck[5].rotation keys=241 dur=8.00 first=(0.1893,0.0012,0.0275,0.9815) 22.06deg axis(0.99,0.01,0.14) last=(0.1893,0.0012,0.0275,0.9815) 22.06deg axis(0.99,0.01,0.14) maxdev=1.98deg
+  Head[6].rotation keys=241 dur=8.00 first=(0.0365,-0.0008,0.0077,0.9993) 4.27deg axis(0.98,-0.02,0.21) last=(0.0365,-0.0008,0.0077,0.9993) 4.27deg axis(0.98,-0.02,0.21) maxdev=0.55deg
+  Ear_L[7].rotation keys=241 dur=8.00 first=(0.0000,0.0000,-0.1736,0.9848) 20.00deg axis(0.00,0.00,-1.00) last=(0.0000,0.0000,-0.1736,0.9848) 20.00deg axis(0.00,0.00,-1.00) maxdev=5.12deg
+  Ear_R[8].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.1736,0.9848) 20.00deg axis(0.00,0.00,1.00) last=(0.0000,0.0000,0.1736,0.9848) 20.00deg axis(0.00,0.00,1.00) maxdev=0.00deg
+  Arm_L[9].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0872,0.9962) 10.00deg axis(0.00,0.00,1.00) last=(0.0000,0.0000,0.0872,0.9962) 10.00deg axis(0.00,0.00,1.00) maxdev=0.00deg
+  Forearm_L[10].rotation keys=241 dur=8.00 first=(0.0000,0.0000,-0.0785,0.9969) 9.00deg axis(0.00,0.00,-1.00) last=(0.0000,0.0000,-0.0785,0.9969) 9.00deg axis(0.00,0.00,-1.00) maxdev=0.00deg
+  Paw_L[11].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0175,0.9998) 2.00deg axis(0.00,0.00,1.00) last=(0.0000,0.0000,0.0175,0.9998) 2.00deg axis(0.00,0.00,1.00) maxdev=0.00deg
+  Arm_R[12].rotation keys=241 dur=8.00 first=(0.0000,0.0000,-0.0872,0.9962) 10.00deg axis(0.00,0.00,-1.00) last=(0.0000,0.0000,-0.0872,0.9962) 10.00deg axis(0.00,0.00,-1.00) maxdev=0.00deg
+  Forearm_R[13].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0785,0.9969) 9.00deg axis(0.00,0.00,1.00) last=(0.0000,0.0000,0.0785,0.9969) 9.00deg axis(0.00,0.00,1.00) maxdev=0.00deg
+  Paw_R[14].rotation keys=241 dur=8.00 first=(0.0000,0.0000,-0.0175,0.9998) 2.00deg axis(0.00,0.00,-1.00) last=(0.0000,0.0000,-0.0175,0.9998) 2.00deg axis(0.00,0.00,-1.00) maxdev=0.00deg
+  Leg_L[15].rotation keys=241 dur=8.00 first=(0.0000,0.0000,-0.0087,1.0000) 1.00deg axis(0.00,0.00,-1.00) last=(0.0000,0.0000,-0.0087,1.0000) 1.00deg axis(0.00,0.00,-1.00) maxdev=0.00deg
+  Foot_L[16].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Leg_R[17].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0087,1.0000) 1.00deg axis(0.00,0.00,1.00) last=(0.0000,0.0000,0.0087,1.0000) 1.00deg axis(0.00,0.00,1.00) maxdev=0.00deg
+  Foot_R[18].rotation keys=241 dur=8.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Tail_1[19].rotation keys=241 dur=8.00 first=(-0.0858,0.1730,0.0151,0.9811) 22.34deg axis(-0.44,0.89,0.08) last=(-0.0858,0.1730,0.0151,0.9811) 22.34deg axis(-0.44,0.89,0.08) maxdev=1.50deg
+  Tail_2[20].rotation keys=241 dur=8.00 first=(-0.0760,0.2453,0.0193,0.9663) 29.85deg axis(-0.30,0.95,0.07) last=(-0.0760,0.2453,0.0193,0.9663) 29.85deg axis(-0.30,0.95,0.07) maxdev=2.01deg
+  Tail_3[21].rotation keys=241 dur=8.00 first=(-0.0597,0.2078,0.0127,0.9763) 25.02deg axis(-0.28,0.96,0.06) last=(-0.0597,0.2078,0.0127,0.9763) 25.02deg axis(-0.28,0.96,0.06) maxdev=2.47deg
+  Tail_Tip[22].rotation keys=241 dur=8.00 first=(-0.0346,0.1368,0.0048,0.9900) 16.24deg axis(-0.24,0.97,0.03) last=(-0.0346,0.1368,0.0048,0.9900) 16.24deg axis(-0.24,0.97,0.03) maxdev=2.76deg
+  Hips[2].translation keys=241 dur=8.00 first=(0.0620,0.4894,-0.0906) last=(0.0620,0.4894,-0.0906) spread=0.0035
+  Chest[4].scale keys=241 dur=8.00 first=(0.9880,0.9800,0.9880) last=(0.9880,0.9800,0.9880) spread=0.0240
+  Blink_L[23].weights keys=241 dur=8.00 first=1.0000 last=1.0000 spread=0.0400
+  Blink_R[24].weights keys=241 dur=8.00 first=1.0000 last=1.0000 spread=0.0240
+
+-- animation 'tap_reaction' channels=26
+  Root[1].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Hips[2].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Spine[3].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=3.41deg
+  Chest[4].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Neck[5].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=6.97deg
+  Head[6].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=1.54deg
+  Ear_L[7].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=10.00deg
+  Ear_R[8].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=10.00deg
+  Arm_L[9].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=22.00deg
+  Forearm_L[10].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=10.00deg
+  Paw_L[11].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=14.00deg
+  Arm_R[12].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=22.00deg
+  Forearm_R[13].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=10.00deg
+  Paw_R[14].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=14.00deg
+  Leg_L[15].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=2.00deg
+  Foot_L[16].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Leg_R[17].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=2.00deg
+  Foot_R[18].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Tail_1[19].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=15.13deg
+  Tail_2[20].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=20.10deg
+  Tail_3[21].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=24.00deg
+  Tail_Tip[22].rotation keys=31 dur=1.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=20.00deg
+  Hips[2].translation keys=31 dur=1.00 first=(0.0620,0.5324,-0.0906) last=(0.0620,0.5324,-0.0906) spread=0.0780
+  Chest[4].scale keys=31 dur=1.00 first=(1.0000,1.0000,1.0000) last=(1.0000,1.0000,1.0000) spread=0.0700
+  Blink_L[23].weights keys=31 dur=1.00 first=0.0000 last=0.0000 spread=0.8963
+  Blink_R[24].weights keys=31 dur=1.00 first=0.0000 last=0.0000 spread=0.8963
+
+-- animation 'celebrate' channels=26
+  Root[1].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,-1.0000) 360.00deg axis(0.00,0.00,0.00) maxdev=360.00deg
+  Hips[2].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Spine[3].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=3.99deg
+  Chest[4].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Neck[5].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=8.24deg
+  Head[6].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=2.34deg
+  Ear_L[7].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=13.96deg
+  Ear_R[8].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=13.96deg
+  Arm_L[9].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=37.86deg
+  Forearm_L[10].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=15.89deg
+  Paw_L[11].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=19.87deg
+  Arm_R[12].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=37.86deg
+  Forearm_R[13].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=15.89deg
+  Paw_R[14].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=19.87deg
+  Leg_L[15].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=2.98deg
+  Foot_L[16].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Leg_R[17].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=2.98deg
+  Foot_R[18].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=0.00deg
+  Tail_1[19].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=20.32deg
+  Tail_2[20].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=26.22deg
+  Tail_3[21].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=29.98deg
+  Tail_Tip[22].rotation keys=61 dur=2.00 first=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) last=(0.0000,0.0000,0.0000,1.0000) 0.00deg axis(0.00,0.00,0.00) maxdev=23.84deg
+  Hips[2].translation keys=61 dur=2.00 first=(0.0620,0.5324,-0.0906) last=(0.0620,0.5324,-0.0906) spread=0.1092
+  Chest[4].scale keys=61 dur=2.00 first=(1.0000,1.0000,1.0000) last=(1.0000,1.0000,1.0000) spread=0.0743
+  Blink_L[23].weights keys=61 dur=2.00 first=0.0000 last=0.0000 spread=0.5464
+  Blink_R[24].weights keys=61 dur=2.00 first=0.0000 last=0.0000 spread=0.9500

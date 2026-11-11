@@ -1,0 +1,622 @@
+{
+  "format": "momo-3d-rig",
+  "format_version": 2,
+  "character": "Momo",
+  "note": "Version 2 replaces root-only animation. Each glb now has a real 22-joint skeleton, JOINTS_0/WEIGHTS_0 skinning, and per-joint animation channels. Same clip names, triggers, loop/one-shot and per-stage character as v1 rig. Original static uploads in user/files were the source; these glbs are new files with the same filenames in paket-momo-3d-final.",
+  "models": {
+    "momo_bayi.glb": {
+      "stage": 1,
+      "stage_name": "Bayi",
+      "level": "1-4",
+      "file_size_note": "see zip",
+      "joints": {
+        "Root": [
+          -0.04181743413209915,
+          -0.9134757566452026,
+          0.1585196554660797
+        ],
+        "Hips": [
+          0.02022523432970047,
+          -0.38108572363853455,
+          0.06795863807201385
+        ],
+        "Spine": [
+          -0.03368102014064789,
+          -0.10891277343034744,
+          0.06323050707578659
+        ],
+        "Chest": [
+          -0.1388697624206543,
+          0.17772315442562103,
+          0.29007238149642944
+        ],
+        "Neck": [
+          -0.13523150980472565,
+          0.48330458998680115,
+          0.12242971360683441
+        ],
+        "Head": [
+          -0.14218947291374207,
+          0.7682039737701416,
+          0.16212916374206543
+        ],
+        "Ear_L": [
+          -0.46251264214515686,
+          0.8315770030021667,
+          0.15902099013328552
+        ],
+        "Ear_R": [
+          0.20114988088607788,
+          0.8328119516372681,
+          0.15541213750839233
+        ],
+        "Arm_L": [
+          -0.45197758078575134,
+          0.17772315442562103,
+          0.29007238149642944
+        ],
+        "Arm_R": [
+          0.2909100353717804,
+          0.17772315442562103,
+          0.29007238149642944
+        ],
+        "Forearm_L": [
+          -0.45197758078575134,
+          0.006884164214134236,
+          0.31007238149642946
+        ],
+        "Forearm_R": [
+          0.2909100353717804,
+          0.006884164214134236,
+          0.31007238149642946
+        ],
+        "Paw_L": [
+          -0.45197758078575134,
+          -0.16395482599735256,
+          0.36007238149642945
+        ],
+        "Paw_R": [
+          0.2909100353717804,
+          -0.16395482599735256,
+          0.36007238149642945
+        ],
+        "Leg_L": [
+          -0.3547065556049347,
+          -0.4759962737560272,
+          0.1540682017803192
+        ],
+        "Leg_R": [
+          0.2685937285423279,
+          -0.4759962737560272,
+          0.1540682017803192
+        ],
+        "Foot_L": [
+          -0.3547065556049347,
+          -0.894493646621704,
+          0.2040682017803192
+        ],
+        "Foot_R": [
+          0.2685937285423279,
+          -0.894493646621704,
+          0.2040682017803192
+        ],
+        "Tail_1": [
+          0.13165166260877564,
+          -0.38108572363853455,
+          -0.060431981059479216
+        ],
+        "Tail_2": [
+          0.2365235951067288,
+          -0.44108572363853454,
+          -0.18127021083029624
+        ],
+        "Tail_3": [
+          0.3413955276046819,
+          -0.5010857236385345,
+          -0.3021084406011132
+        ],
+        "Tail_Tip": [
+          0.44626746010263496,
+          -0.5610857236385345,
+          -0.4229466703719302
+        ]
+      }
+    },
+    "momo_remaja.glb": {
+      "stage": 2,
+      "stage_name": "Remaja",
+      "level": "5-10",
+      "joints": {
+        "Root": [
+          -0.0662933811545372,
+          -0.9128862619400024,
+          0.04692268744111061
+        ],
+        "Hips": [
+          0.05327973887324333,
+          -0.3907853662967682,
+          -0.06058453395962715
+        ],
+        "Spine": [
+          -0.04044511914253235,
+          -0.11627477407455444,
+          -0.014466657303273678
+        ],
+        "Chest": [
+          -0.17186233401298523,
+          0.15764595568180084,
+          0.2995101511478424
+        ],
+        "Neck": [
+          -0.17056259512901306,
+          0.4525149464607239,
+          0.3157215416431427
+        ],
+        "Head": [
+          -0.1726839393377304,
+          0.7619876861572266,
+          0.26981836557388306
+        ],
+        "Ear_L": [
+          -0.3537309765815735,
+          0.8215188980102539,
+          0.2569900155067444
+        ],
+        "Ear_R": [
+          0.00736991036683321,
+          0.817382276058197,
+          0.2582392990589142
+        ],
+        "Arm_L": [
+          -0.3055216073989868,
+          0.15764595568180084,
+          0.2995101511478424
+        ],
+        "Arm_R": [
+          0.192276269197464,
+          0.15764595568180084,
+          0.2995101511478424
+        ],
+        "Forearm_L": [
+          -0.3055216073989868,
+          -0.013087376952171326,
+          0.3195101511478424
+        ],
+        "Forearm_R": [
+          0.192276269197464,
+          -0.013087376952171326,
+          0.3195101511478424
+        ],
+        "Paw_L": [
+          -0.3055216073989868,
+          -0.1838207095861435,
+          0.3695101511478424
+        ],
+        "Paw_R": [
+          0.192276269197464,
+          -0.1838207095861435,
+          0.3695101511478424
+        ],
+        "Leg_L": [
+          -0.26691216230392456,
+          -0.48563721776008606,
+          0.003919677343219519
+        ],
+        "Leg_R": [
+          0.28120583295822144,
+          -0.48563721776008606,
+          0.003919677343219519
+        ],
+        "Foot_L": [
+          -0.26691216230392456,
+          -0.8939158916473389,
+          0.05391967734321952
+        ],
+        "Foot_R": [
+          0.28120583295822144,
+          -0.8939158916473389,
+          0.05391967734321952
+        ],
+        "Tail_1": [
+          0.16313264340663403,
+          -0.3907853662967682,
+          -0.19032403976097417
+        ],
+        "Tail_2": [
+          0.26652361237923705,
+          -0.4507853662967682,
+          -0.31243180992694786
+        ],
+        "Tail_3": [
+          0.36991458135184,
+          -0.5107853662967682,
+          -0.4345395800929215
+        ],
+        "Tail_Tip": [
+          0.473305550324443,
+          -0.5707853662967681,
+          -0.5566473502588951
+        ]
+      }
+    },
+    "momo_dewasa.glb": {
+      "stage": 3,
+      "stage_name": "Dewasa",
+      "level": "11+",
+      "joints": {
+        "Root": [
+          -0.07441302388906479,
+          -0.9137196207046508,
+          0.07997684180736542
+        ],
+        "Hips": [
+          0.05229402706027031,
+          -0.3736703097820282,
+          0.07748866826295853
+        ],
+        "Spine": [
+          0.06237764284014702,
+          -0.07104318588972092,
+          0.11016147583723068
+        ],
+        "Chest": [
+          0.06314107030630112,
+          0.18033958971500397,
+          0.01068874541670084
+        ],
+        "Neck": [
+          0.04435691237449646,
+          0.44248124957084656,
+          0.06493953615427017
+        ],
+        "Head": [
+          0.059121064841747284,
+          0.7841609716415405,
+          0.11599179357290268
+        ],
+        "Ear_L": [
+          -0.12679269909858704,
+          0.8514906764030457,
+          0.12251352518796921
+        ],
+        "Ear_R": [
+          0.248108372092247,
+          0.8506852388381958,
+          0.12212337553501129
+        ],
+        "Arm_L": [
+          -0.16896860301494598,
+          0.18033958971500397,
+          0.01068874541670084
+        ],
+        "Arm_R": [
+          0.29550108313560486,
+          0.18033958971500397,
+          0.01068874541670084
+        ],
+        "Forearm_L": [
+          -0.16896860301494598,
+          0.009405477643013,
+          0.03068874541670084
+        ],
+        "Forearm_R": [
+          0.29550108313560486,
+          0.009405477643013,
+          0.03068874541670084
+        ],
+        "Paw_L": [
+          -0.16896860301494598,
+          -0.16152863442897797,
+          0.08068874541670085
+        ],
+        "Paw_R": [
+          0.29550108313560486,
+          -0.16152863442897797,
+          0.08068874541670085
+        ],
+        "Leg_L": [
+          -0.3762533962726593,
+          -0.46863370537757876,
+          0.0807836502790451
+        ],
+        "Leg_R": [
+          0.2292826920747757,
+          -0.46863370537757876,
+          0.0807836502790451
+        ],
+        "Foot_L": [
+          -0.3762533962726593,
+          -0.8947269415855408,
+          0.1307836502790451
+        ],
+        "Foot_R": [
+          0.2292826920747757,
+          -0.8947269415855408,
+          0.1307836502790451
+        ],
+        "Tail_1": [
+          0.014309019100412473,
+          -0.3736703097820282,
+          -0.08821329059779104
+        ],
+        "Tail_2": [
+          -0.021441576626512554,
+          -0.4336703097820282,
+          -0.24416807540790827
+        ],
+        "Tail_3": [
+          -0.05719217235343757,
+          -0.4936703097820282,
+          -0.40012286021802546
+        ],
+        "Tail_Tip": [
+          -0.09294276808036259,
+          -0.5536703097820281,
+          -0.5560776450281427
+        ]
+      }
+    }
+  },
+  "joint_hierarchy": {
+    "Root": [
+      "Hips"
+    ],
+    "Hips": [
+      "Spine",
+      "Leg_L",
+      "Leg_R",
+      "Tail_1"
+    ],
+    "Spine": [
+      "Chest"
+    ],
+    "Chest": [
+      "Neck",
+      "Arm_L",
+      "Arm_R"
+    ],
+    "Neck": [
+      "Head"
+    ],
+    "Head": [
+      "Ear_L",
+      "Ear_R"
+    ],
+    "Arm_L": [
+      "Forearm_L"
+    ],
+    "Forearm_L": [
+      "Paw_L"
+    ],
+    "Arm_R": [
+      "Forearm_R"
+    ],
+    "Forearm_R": [
+      "Paw_R"
+    ],
+    "Leg_L": [
+      "Foot_L"
+    ],
+    "Leg_R": [
+      "Foot_R"
+    ],
+    "Tail_1": [
+      "Tail_2"
+    ],
+    "Tail_2": [
+      "Tail_3"
+    ],
+    "Tail_3": [
+      "Tail_Tip"
+    ]
+  },
+  "joint_list": [
+    "Root",
+    "Hips",
+    "Spine",
+    "Chest",
+    "Neck",
+    "Head",
+    "Ear_L",
+    "Ear_R",
+    "Arm_L",
+    "Forearm_L",
+    "Paw_L",
+    "Arm_R",
+    "Forearm_R",
+    "Paw_R",
+    "Leg_L",
+    "Foot_L",
+    "Leg_R",
+    "Foot_R",
+    "Tail_1",
+    "Tail_2",
+    "Tail_3",
+    "Tail_Tip"
+  ],
+  "joint_derivation": "Per model, joints were derived from that model's own vertex clusters, not one fixed template: spine chain from Y-band centroids, Head from 85-100% Y centroid, Ear_L/Ear_R from top 90-100% X-split clusters around the head centre, Arm_L/R from 40-60% X extremes at chest height, Leg/Foot from bottom 0-15% X split with Z fixed to the bottom-band centre (so tail vertices do not pull a leg backward), Tail chain from the far-95% XZ direction in the 20-50% band (bayi/remaja back-right +X/-Z, dewasa mainly -Z) stepped outward with Y slightly down. Joint positions per model are in models[].joints, in glTF world coordinates (Y up, facing +Z).",
+  "skinning": {
+    "method": "Distance-based, weight = exp(-(distance/0.16)^2), top 4 joints per vertex, weights renormalized to sum 1.0. Inverse bind matrices are pure translations by -joint position, so bind pose leaves the mesh unchanged.",
+    "attributes": "Mesh primitive JOINTS_0 (UNSIGNED_SHORT VEC4) and WEIGHTS_0 (FLOAT VEC4), Skin with 22 joints, skeleton = Root node, mesh node skin = 0, scene nodes = [mesh node, Root node].",
+    "dominant_weight_share": "Vertices with a single joint weight >0.5: bayi 90.9%, remaja 85.2%, dewasa 79.8% (sigma 0.16)."
+  },
+  "animations": [
+    {
+      "clip": "idle_fresh",
+      "type": "Looping",
+      "trigger": "HP > 60",
+      "durations_seconds": {
+        "momo_bayi.glb": 2.4,
+        "momo_remaja.glb": 2.0,
+        "momo_dewasa.glb": 3.0
+      },
+      "per_joint_tracks": {
+        "Hips": "translation Y bob",
+        "Chest": "scale breathing",
+        "Head": "rotation nod/look, different timing per stage",
+        "Ear_L": "rotation Z wiggle, early in cycle",
+        "Ear_R": "rotation Z wiggle, late in cycle (not simultaneous with Ear_L)",
+        "Tail_1": "rotation Y sway",
+        "Tail_2": "rotation Y sway, phase after Tail_1",
+        "Tail_3": "rotation Y sway, phase after Tail_2",
+        "Arm_L": "rotation X swing",
+        "Arm_R": "rotation X swing, opposite phase"
+      },
+      "character": {
+        "bayi": "clumsy slow, sway 3.5 deg",
+        "remaja": "energetic, sway 2.5 deg",
+        "dewasa": "calm, sway 1.5 deg, breathing 1.015"
+      }
+    },
+    {
+      "clip": "idle_tired",
+      "type": "Looping",
+      "trigger": "HP 30-60",
+      "durations_seconds": {
+        "momo_bayi.glb": 3.0,
+        "momo_remaja.glb": 3.0,
+        "momo_dewasa.glb": 3.0
+      },
+      "per_joint_tracks": {
+        "Spine": "rotation X slouch 5-7 deg",
+        "Chest": "scale Y 0.96-0.98 slow heavy breathing",
+        "Head": "rotation X droop 12-15 deg",
+        "Ear_L": "rotation Z inward +12-14 deg",
+        "Ear_R": "rotation Z inward -12-14 deg",
+        "Tail_1": "rotation X droop 12-14 deg",
+        "Tail_2": "rotation X droop 10-12 deg",
+        "Tail_3": "rotation X droop 8-10 deg"
+      }
+    },
+    {
+      "clip": "idle_critical",
+      "type": "Looping",
+      "trigger": "HP < 30",
+      "durations_seconds": {
+        "momo_bayi.glb": 1.2,
+        "momo_remaja.glb": 1.2,
+        "momo_dewasa.glb": 1.2
+      },
+      "per_joint_tracks": {
+        "Chest": "scale jitter 0.97-0.98",
+        "Head": "rotation Z jitter +/-2 deg, X 10 deg crouch",
+        "Ear_L": "rotation Z inward +15-17 deg",
+        "Ear_R": "rotation Z inward -15-17 deg",
+        "Tail_3": "rotation Y tremble +/-3 deg every 0.2s",
+        "Hips": "translation X jitter +/-0.01"
+      }
+    },
+    {
+      "clip": "sleep",
+      "type": "Looping",
+      "trigger": "isResting true",
+      "durations_seconds": {
+        "momo_bayi.glb": 3.6,
+        "momo_remaja.glb": 3.6,
+        "momo_dewasa.glb": 3.6
+      },
+      "per_joint_tracks": {
+        "Chest": "scale Y 0.93-0.95 very slow breathing",
+        "Head": "rotation X droop 18-20 deg, Z 5 deg rest",
+        "Ear_L": "rotation Z relaxed +8 deg",
+        "Ear_R": "rotation Z relaxed -8 deg",
+        "Tail_1": "rotation Y curl 15-18 deg toward body",
+        "Tail_2": "rotation Y curl 20-23 deg",
+        "Tail_3": "rotation Y curl 15-18 deg"
+      }
+    },
+    {
+      "clip": "tap_reaction",
+      "type": "One-Shot",
+      "trigger": "screen tap, return to active idle after 0.8s",
+      "durations_seconds": {
+        "momo_bayi.glb": 0.8,
+        "momo_remaja.glb": 0.8,
+        "momo_dewasa.glb": 0.8
+      },
+      "per_joint_tracks": {
+        "Hips": "translation Y bounce (bayi 0.10, remaja 0.14, dewasa 0.08)",
+        "Chest": "scale pop 1.07 then 1.02 then 1.0",
+        "Head": "rotation Z tilt -7 then +5 then 0",
+        "Ear_L": "rotation Z happy -10 deg",
+        "Ear_R": "rotation Z happy +10 deg",
+        "Tail_1": "rotation Y wag +12/-12 deg",
+        "Tail_2": "rotation Y wag -12/+12 deg",
+        "Tail_3": "rotation Y wag +15/-15 deg"
+      }
+    },
+    {
+      "clip": "celebrate",
+      "type": "One-Shot, Bonus",
+      "trigger": "daily mission complete or level up, return to active idle after 1.8s",
+      "durations_seconds": {
+        "momo_bayi.glb": 1.8,
+        "momo_remaja.glb": 1.8,
+        "momo_dewasa.glb": 1.8
+      },
+      "per_joint_tracks": {
+        "Root": "rotation Y spin 0 to 360 deg",
+        "Hips": "translation Y bounce to 0.12",
+        "Chest": "scale pop 1.08",
+        "Ear_L": "rotation Z up -12 deg",
+        "Ear_R": "rotation Z up +12 deg",
+        "Tail_1": "rotation Y wag +/-15 deg",
+        "Tail_3": "rotation Y wag -/+15 deg"
+      }
+    }
+  ],
+  "animation_priority": "sleep (isResting true) beats all, then idle_critical (hp < 30), idle_tired (hp 30-60), idle_fresh (hp > 60). tap_reaction and celebrate are one-shots over the active idle, then return to it.",
+  "how_to_move_one_part_alone": {
+    "principle": "Find the joint node by its exact name and rotate/scale only that node. Neighbouring parts will follow only through skin weights, they are not locked to the joint.",
+    "three_js": "const ear = gltf.scene.getObjectByName('Ear_L'); ear.rotation.z += 0.35; // 20 deg, ear only. const tail = gltf.scene.getObjectByName('Tail_3'); tail.rotation.y += 0.35; // tail tip only. Do not rotate the mesh node itself if you want one part alone.",
+    "unity": "var ear = model.transform.Find('Root/Hips/Spine/Chest/Neck/Head/Ear_L'); ear.localRotation *= Quaternion.Euler(0,0,20); var tail = model.transform.Find('Root/Hips/Tail_1/Tail_2/Tail_3'); tail.localRotation *= Quaternion.Euler(0,20,0);",
+    "flutter_model_viewer": "model_viewer_plus selects whole clips, not single joints. For single-joint control use a Three.js/WebGL view, Unity, or Godot and address the joint by name as above.",
+    "examples": {
+      "rotate_only_Ear_L": "Ear_L rotation Z +20 deg",
+      "rotate_only_Tail_3": "Tail_3 rotation Y +20 deg"
+    }
+  },
+  "deformation_test": {
+    "method": "Python linear-blend skinning on the actual JOINTS_0/WEIGHTS_0: rotate one joint 20 deg, compute per-vertex displacement, compare a region within 0.28 of Ear_L (ear) or 0.30 of Tail_3 (tail) against a torso region within 0.28-0.30 of Chest.",
+    "results": {
+      "momo_bayi.glb": {
+        "ear_mean": 0.044587709954429545,
+        "ear_n": 5144,
+        "tail_mean": 0.024811703468210423,
+        "tail_n": 3137,
+        "torso_mean": 0.0,
+        "torso_n": 1764
+      },
+      "momo_remaja.glb": {
+        "ear_mean": 0.020564925220990696,
+        "ear_n": 5531,
+        "tail_mean": 0.01663667272264396,
+        "tail_n": 6768,
+        "torso_mean": 0.0,
+        "torso_n": 7727
+      },
+      "momo_dewasa.glb": {
+        "ear_mean": 0.020329456033562864,
+        "ear_n": 3995,
+        "tail_mean": 0.022244740400597866,
+        "tail_n": 3213,
+        "torso_mean": 0.0,
+        "torso_n": 25120
+      }
+    },
+    "interpretation": "Torso mean is 0.0 to 4 decimal places because torso-region vertices are not in the top-4 weights for Ear_L or Tail_3, so they do not move at all in those single-joint tests, while ear/tail regions move 0.017-0.045 units (mesh height about 1.9 units). Separation is therefore clean for these two tests, not just larger."
+  },
+  "honest_limits": [
+    "Tail_1 (tail base) blends heavily with Hips/Spine: mean weight on its vertices is only 0.076-0.198, versus Tail_Tip 0.23-0.41 and Ear_L 0.25-0.58. Tail base motion is soft, tail tip motion is sharp. This is inherent to distance skinning on a fused mesh, not a separate tail mesh.",
+    "Remaja Forearm_R covers only 2063 vertices in the top-4 set (versus 6244 bayi, 20633 dewasa), because its arm position sits close to Chest/Neck clusters. Its motion still works, but is more blended with Chest than the other arms.",
+    "The mesh is still one fused primitive, so there is no separate eye, mouth, or ear mesh to blink or twitch independently of the head/ear joint. Eye blink and mouth shape still need a separate face mesh or morph targets, which this rig does not invent.",
+    "Joint positions are estimates from vertex clusters, not artist-placed bones from the original Tripo rig. They are recorded per model above so they can be corrected in Blender if Hakim wants exact bone placement."
+  ],
+  "inputs": {
+    "hp": "Number 0-100",
+    "isResting": "Boolean",
+    "stage": "Number 1 Bayi, 2 Remaja, 3 Dewasa",
+    "tap": "Trigger tap_reaction",
+    "mission_or_level": "Trigger celebrate"
+  }
+}

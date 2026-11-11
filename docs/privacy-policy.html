@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kebijakan Privasi — Screen Time Tracker</title>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #faf7f2;
+    --card: #ffffff;
+    --ink: #1f2933;
+    --muted: #5b6672;
+    --accent: #f5b301;
+    --border: #1f2933;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.65;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  h1 {
+    font-size: 1.9rem;
+    line-height: 1.2;
+    margin: 0 0 4px;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 28px;
+  }
+  .card {
+    background: var(--card);
+    border: 2px solid var(--border);
+    border-radius: 16px;
+    padding: 22px 24px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 0 rgba(31, 41, 51, 0.08);
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin: 0 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  h2::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background: var(--accent);
+    border: 1.5px solid var(--border);
+    flex-shrink: 0;
+  }
+  p { margin: 0 0 10px; }
+  ul { margin: 0 0 10px; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  .muted { color: var(--muted); font-size: 0.88rem; }
+  a { color: #8a5a00; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Kebijakan Privasi</h1>
+  <p class="updated">Screen Time Tracker — Terakhir diperbarui: 10 November 2026</p>
+
+  <div class="card">
+    <h2>Ringkasan</h2>
+    <p>Screen Time Tracker ("aplikasi") adalah pelacak kebiasaan pemakaian HP (screen time) dengan pendamping 3D. Aplikasi ini dirancang agar seluruh data pemakaian tetap berada di perangkat kamu, bukan di server kami.</p>
+  </div>
+
+  <div class="card">
+    <h2>Data yang dikumpulkan</h2>
+    <ul>
+      <li><strong>Statistik pemakaian aplikasi</strong> — aplikasi mana yang dibuka, berapa lama, dan berapa kali (melalui izin "Akses pemakaian" Android).</li>
+      <li><strong>Daftar aplikasi terpasang</strong> — hanya nama paket dan label aplikasi, untuk menampilkan peringkat dan label di rekap.</li>
+      <li><strong>Metadata gulir (opsional)</strong> — hanya jumlah gulir, <em>TIDAK</em> membaca isi layar. Fitur ini mati secara bawaan dan hanya aktif bila kamu mengaktifkan "Aksesibilitas (hitung scroll)" secara manual.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Data yang TIDAK dikumpulkan</h2>
+    <ul>
+      <li>Tanpa akun, tanpa nama, email, nomor telepon, atau lokasi.</li>
+      <li>Tanpa membaca pesan, foto, kontak, atau isi layar aplikasi lain.</li>
+      <li>Tanpa iklan dan tanpa SDK analitik pihak ketiga.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Penyimpanan dan berbagi</h2>
+    <p>Semua data tersimpan <strong>lokal di perangkat</strong> (SharedPreferences dan database SQLite). Tidak ada data yang dikirim ke server mana pun; satu-satunya lalu lintas jaringan adalah memuat model 3D dari localhost di perangkat itu sendiri.</p>
+    <p>Data <strong>tidak dibagikan</strong> kepada pihak ketiga mana pun.</p>
+  </div>
+
+  <div class="card">
+    <h2>Kontrol kamu</h2>
+    <ul>
+      <li>Kamu dapat mencabut izin kapan saja lewat Pengaturan Android.</li>
+      <li>Kamu dapat menghapus seluruh data aplikasi lewat menu <strong>Profil → Privasi &amp; backup → hapus data</strong>.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Hubungi kami</h2>
+    <p>Pertanyaan seputar kebijakan privasi ini dapat dikirim ke:</p>
+    <p><a href="mailto:agentkimdev@gmail.com">agentkimdev@gmail.com</a></p>
+  </div>
+
+  <p class="muted">Dengan menggunakan aplikasi ini, kamu menyetujui kebijakan privasi ini.</p>
+</main>
+</body>
+</html>

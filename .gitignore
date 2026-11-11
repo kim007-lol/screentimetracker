@@ -1,0 +1,77 @@
+# ==============================================================================
+# Git Ignore for Screen Time Tracker
+# ==============================================================================
+
+# Private Release Signing & Local Environment (CRITICAL - NEVER COMMIT)
+**/key.properties
+**/key.properties.*
+**/*.keystore
+**/*.jks
+**/*.p12
+**/*.pfx
+**/local.properties
+
+# Android & Gradle
+.gradle/
+**/.gradle/
+.kotlin/
+**/.kotlin/
+**/build/
+build/
+**/captures/
+.cxx/
+**/.cxx/
+GeneratedPluginRegistrant.java
+**/GeneratedPluginRegistrant.java
+*.apk
+**/*.apk
+*.aab
+**/*.aab
+
+# Flutter / Dart
+.dart_tool/
+**/.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+**/doc/api/
+coverage/
+**/coverage/
+
+# Node / Web (docs-design)
+node_modules/
+**/node_modules/
+docs-design/dist/
+docs-design/.vite/
+docs-design/.cache/
+docs-design/.figma/
+*.tsbuildinfo
+*-debug.log*
+
+# Python & Heavy QA / Temporary Artifacts (6+ GB dumps)
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.npy
+**/*.npy
+*.mp4
+**/*.mp4
+.tmp/
+/.tmp/
+dewasa/
+tools/frames/
+tools/qa_pet/
+tools/qa_rig/
+tools/qa_rename_*/
+
+# IDE & Operating System
+.DS_Store
+Thumbs.db
+*.log
+*.iml
+.idea/
+**/.idea/
+.vscode/
+**/.vscode/

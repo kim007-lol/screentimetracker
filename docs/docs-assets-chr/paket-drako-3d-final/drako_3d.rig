@@ -1,0 +1,862 @@
+{
+  "format": "drako-3d-rig",
+  "format_version": 2,
+  "character": "Drako",
+  "note": "Rig per-joint untuk Drako, 3 model lengkap: Bayi, Remaja, Dewasa. Dewasa dibuat dari drako_dewasa_6lite.glb (Meshy 6 Lite, 20 kredit, satu kali generate), bukan model Frontier/7.1. Sumber asli tidak ditimpa.",
+  "character_design": "Drako, naga api merah dan emas, quadruped, 4 kaki menapak di tanah, bukan berdiri tegak. Bayi chubby quadruped, remaja lebih ramping dan lebih sederhana.",
+  "joints_order": [
+    "Root",
+    "Hips",
+    "Spine",
+    "Chest",
+    "Neck",
+    "Head",
+    "Horn_L",
+    "Horn_R",
+    "Wing_L",
+    "Wing_L_Tip",
+    "Wing_R",
+    "Wing_R_Tip",
+    "LegFL",
+    "PawFL",
+    "LegFR",
+    "PawFR",
+    "LegBL",
+    "PawBL",
+    "LegBR",
+    "PawBR",
+    "Tail_1",
+    "Tail_2",
+    "Tail_3",
+    "Tail_Tip"
+  ],
+  "hierarchy": {
+    "Root": [
+      "DrakoMesh",
+      "Hips"
+    ],
+    "Hips": [
+      "Spine",
+      "LegFL",
+      "LegFR",
+      "LegBL",
+      "LegBR",
+      "Tail_1"
+    ],
+    "Spine": [
+      "Chest"
+    ],
+    "Chest": [
+      "Neck",
+      "Wing_L",
+      "Wing_R"
+    ],
+    "Neck": [
+      "Head"
+    ],
+    "Head": [
+      "Horn_L",
+      "Horn_R"
+    ],
+    "Wing_L": [
+      "Wing_L_Tip"
+    ],
+    "Wing_R": [
+      "Wing_R_Tip"
+    ],
+    "LegFL": [
+      "PawFL"
+    ],
+    "LegFR": [
+      "PawFR"
+    ],
+    "LegBL": [
+      "PawBL"
+    ],
+    "LegBR": [
+      "PawBR"
+    ],
+    "Tail_1": [
+      "Tail_2"
+    ],
+    "Tail_2": [
+      "Tail_3"
+    ],
+    "Tail_3": [
+      "Tail_Tip"
+    ]
+  },
+  "joint_positions_per_model": {
+    "bayi": {
+      "Root": [
+        -0.11170177906751633,
+        -0.5568064332008362,
+        -0.10463185608386993
+      ],
+      "Hips": [
+        -0.11107388138771057,
+        -0.5068064332008362,
+        -0.10463185608386993
+      ],
+      "Spine": [
+        -0.11135999858379364,
+        -0.20416224002838135,
+        -0.024907756596803665
+      ],
+      "Chest": [
+        -0.11194610595703125,
+        0.11028502881526947,
+        0.1860753744840622
+      ],
+      "Neck": [
+        -0.10990515351295471,
+        0.4596622586250305,
+        0.08357925713062286
+      ],
+      "Head": [
+        -0.11170177906751633,
+        0.8150492906570435,
+        0.04270496219396591
+      ],
+      "Horn_L": [
+        -0.5166141986846924,
+        0.8335776329040527,
+        0.034477367997169495
+      ],
+      "Horn_R": [
+        0.31450942158699036,
+        0.8244054317474365,
+        0.05090077221393585
+      ],
+      "Wing_L": [
+        -0.5192038416862488,
+        0.00741818780079484,
+        -0.054616380482912064
+      ],
+      "Wing_L_Tip": [
+        -0.6839159727096558,
+        -0.29746299982070923,
+        -0.2732140123844147
+      ],
+      "Wing_R": [
+        0.5718407034873962,
+        -0.23111242055892944,
+        -0.42449185252189636
+      ],
+      "Wing_R_Tip": [
+        0.6349369883537292,
+        -0.2773280143737793,
+        -0.438495010137558
+      ],
+      "LegFL": [
+        -0.35585471987724304,
+        -0.7978547215461731,
+        0.23387916386127472
+      ],
+      "PawFL": [
+        -0.35585471987724304,
+        -0.9,
+        0.23387916386127472
+      ],
+      "LegFR": [
+        0.203780397772789,
+        -0.7962738275527954,
+        0.19790230691432953
+      ],
+      "PawFR": [
+        0.203780397772789,
+        -0.9,
+        0.19790230691432953
+      ],
+      "LegBL": [
+        -0.32815924286842346,
+        -0.8098000288009644,
+        -0.23891760408878326
+      ],
+      "PawBL": [
+        -0.32815924286842346,
+        -0.9,
+        -0.23891760408878326
+      ],
+      "LegBR": [
+        0.33990180492401123,
+        -0.7967256307601929,
+        -0.3694543242454529
+      ],
+      "PawBR": [
+        0.33990180492401123,
+        -0.9,
+        -0.3694543242454529
+      ],
+      "Tail_1": [
+        0.03778036236763002,
+        -0.5568064332008362,
+        -0.23820734322071077
+      ],
+      "Tail_2": [
+        0.22384816706180571,
+        -0.6068064332008362,
+        -0.40517670214176177
+      ],
+      "Tail_3": [
+        0.6360925436019897,
+        -0.503523588180542,
+        -0.47974538803100586
+      ],
+      "Tail_Tip": [
+        0.7700613629817963,
+        -0.503523588180542,
+        -0.5999633264541626
+      ]
+    },
+    "remaja": {
+      "Root": [
+        -0.09734385460615158,
+        -0.5342215478420258,
+        -0.029514918103814125
+      ],
+      "Hips": [
+        -0.050022490322589874,
+        -0.48422154784202576,
+        -0.029514918103814125
+      ],
+      "Spine": [
+        -0.08803645521402359,
+        -0.207081601023674,
+        0.14400959014892578
+      ],
+      "Chest": [
+        -0.09064189344644547,
+        0.09429267048835754,
+        0.34583061933517456
+      ],
+      "Neck": [
+        -0.07942090183496475,
+        0.4457573890686035,
+        0.597797155380249
+      ],
+      "Head": [
+        -0.09734385460615158,
+        0.7931609153747559,
+        0.52934330701828
+      ],
+      "Horn_L": [
+        -0.25796809792518616,
+        0.8330414295196533,
+        0.5549558997154236
+      ],
+      "Horn_R": [
+        0.019132452085614204,
+        0.8023349642753601,
+        0.515343427658081
+      ],
+      "Wing_L": [
+        -0.5455568432807922,
+        -0.023681683465838432,
+        0.26484060287475586
+      ],
+      "Wing_L_Tip": [
+        -0.6290720105171204,
+        -0.17067399621009827,
+        0.35204100608825684
+      ],
+      "Wing_R": [
+        0.3508691340684891,
+        -0.023681683465838432,
+        0.26484060287475586
+      ],
+      "Wing_R_Tip": [
+        0.4343843013048172,
+        -0.17067399621009827,
+        0.35204100608825684
+      ],
+      "LegFL": [
+        -0.4598120152950287,
+        -0.8213359117507935,
+        0.6292290687561035
+      ],
+      "PawFL": [
+        -0.4598120152950287,
+        -0.9,
+        0.6292290687561035
+      ],
+      "LegFR": [
+        0.20346592366695404,
+        -0.78438800573349,
+        0.567594051361084
+      ],
+      "PawFR": [
+        0.20346592366695404,
+        -0.9,
+        0.567594051361084
+      ],
+      "LegBL": [
+        -0.36753782629966736,
+        -0.7986890077590942,
+        -0.08088889718055725
+      ],
+      "PawBL": [
+        -0.36753782629966736,
+        -0.9,
+        -0.08088889718055725
+      ],
+      "LegBR": [
+        0.22959518432617188,
+        -0.7467297911643982,
+        -0.13768577575683594
+      ],
+      "PawBR": [
+        0.22959518432617188,
+        -0.9,
+        -0.13768577575683594
+      ],
+      "Tail_1": [
+        0.02268875688314438,
+        -0.5342215478420258,
+        -0.2158293578773737
+      ],
+      "Tail_2": [
+        0.11357781589031221,
+        -0.5842215478420257,
+        -0.4487224075943232
+      ],
+      "Tail_3": [
+        0.5226584672927856,
+        -0.519255518913269,
+        -0.8583884835243225
+      ],
+      "Tail_Tip": [
+        0.5880985897779465,
+        -0.519255518913269,
+        -1.0260714793205261
+      ]
+    },
+    "dewasa": {
+      "Root": [
+        0.0,
+        -0.07,
+        -0.28
+      ],
+      "Hips": [
+        0.0,
+        -0.02,
+        -0.28
+      ],
+      "Spine": [
+        0.0,
+        0.03,
+        0.02
+      ],
+      "Chest": [
+        0.0,
+        0.1,
+        0.33
+      ],
+      "Neck": [
+        0.0,
+        0.17,
+        0.46
+      ],
+      "Head": [
+        0.0,
+        0.24,
+        0.55
+      ],
+      "Horn_L": [
+        -0.17580743898468743,
+        0.405977313387978,
+        0.4287921317658896
+      ],
+      "Horn_R": [
+        0.17606537227095204,
+        0.4063763802660175,
+        0.4274207789758345
+      ],
+      "Wing_L": [
+        -0.3513221745628501,
+        0.2,
+        -0.05
+      ],
+      "Wing_L_Tip": [
+        -0.8505320304129497,
+        0.2951119727578508,
+        -0.21962779774723282
+      ],
+      "Wing_R": [
+        0.3483048485648756,
+        0.2,
+        -0.05
+      ],
+      "Wing_R_Tip": [
+        0.8476557175040169,
+        0.2930940298386094,
+        -0.217978822917486
+      ],
+      "LegFL": [
+        -0.16170874398091312,
+        -0.33,
+        0.37031407571174174
+      ],
+      "PawFL": [
+        -0.16170874398091312,
+        -0.45,
+        0.37031407571174174
+      ],
+      "LegFR": [
+        0.1665630241802155,
+        -0.33,
+        0.3720687955275349
+      ],
+      "PawFR": [
+        0.1665630241802155,
+        -0.45,
+        0.3720687955275349
+      ],
+      "LegBL": [
+        -0.08404633303483328,
+        -0.33,
+        -0.16345800111691158
+      ],
+      "PawBL": [
+        -0.08404633303483328,
+        -0.45,
+        -0.16345800111691158
+      ],
+      "LegBR": [
+        0.0825259992852807,
+        -0.33,
+        -0.14435274992138147
+      ],
+      "PawBR": [
+        0.0825259992852807,
+        -0.45,
+        -0.14435274992138147
+      ],
+      "Tail_1": [
+        0.0,
+        -0.06,
+        -0.38
+      ],
+      "Tail_2": [
+        0.0,
+        -0.24,
+        -0.54
+      ],
+      "Tail_3": [
+        -0.0034183528724588573,
+        -0.3360073628240188,
+        -0.6656471736687052
+      ],
+      "Tail_Tip": [
+        -0.007308605125567245,
+        -0.4452684231874201,
+        -0.8086397840570478
+      ]
+    }
+  },
+  "joint_derivation": "Posisi joint dihitung per model dari klaster vertex mesh itu sendiri, bukan satu template tetap: Head = rata-rata vertex Y>0.70, Horn = rata-rata vertex atas yang terbelah kiri/kanan dari Head, Neck/Chest/Spine/Hips = rata-rata band Y dengan X dekat Head, Wing = rata-rata vertex X ekstrem di band Y -0.3 sampai 0.5, Wing tip = vertex X terjauh di band itu (kanan dicerminkan bila band kosong), Leg = rata-rata vertex rendah Y<-0.6 yang dibelah depan/belakang oleh median Z dan kiri/kanan oleh X, Paw = Leg dengan Y=-0.90, Tail = arah dari Hips ke rata-rata vertex Z<-0.4 dan Y<-0.2, Tail_3 = rata-rata 20% vertex ekor terjauh, Tail_Tip = Tail_3 + arah ekor x 0.18.",
+  "skinning": {
+    "method": "Distance-based smooth weights, weight = exp(-(distance/0.18)^2), top 4 joints per vertex, renormalized to sum 1.0. JOINTS_0 UNSIGNED_SHORT VEC4, WEIGHTS_0 FLOAT VEC4, Skin dengan inverse bind matrices translasi -joint, sehingga bind pose tidak mengubah mesh.",
+    "nodes": 25,
+    "skin_joints": 24,
+    "mesh_node_skin": 0,
+    "dewasa_method": "Distance weights exp(-(distance/0.18)^2) lalu 8 putaran smoothing Laplacian pada representasi top-4 tersimpan (smooth dense, ambil top 4 lagi, normalisasi jumlah 1.0), supaya vertex bertetangga tidak punya lompatan bobot tajam. Lompatan bobot maksimum antar vertex bertetangga: 0.2893 sebelum smoothing menjadi 0.2219 sesudah (-23%); p99 0.1009 menjadi 0.0653; rata-rata 0.0130 menjadi 0.0095."
+  },
+  "inputs": {
+    "hp": {
+      "range": "0-100",
+      "type": "Number"
+    },
+    "isResting": {
+      "type": "Boolean"
+    },
+    "stage": {
+      "type": "Number",
+      "values": "1 Bayi, 2 Remaja, 3 Dewasa"
+    },
+    "tap": {
+      "type": "Trigger"
+    },
+    "mission_complete_or_level_up": {
+      "type": "Trigger"
+    }
+  },
+  "clips_standard": [
+    {
+      "clip": "idle_fresh",
+      "type": "Looping, base",
+      "trigger": "HP > 60",
+      "description": "Napas dada, kepala menoleh, sayap kiri/kanan berlawanan fase, ekor berurutan 1-2-3-Tip, kaki melangkah kecil"
+    },
+    {
+      "clip": "idle_tired",
+      "type": "Looping, base",
+      "trigger": "HP 30-60",
+      "description": "Membungkuk, kepala menunduk, sayap terkulai, ekor terkulai, napas lambat berat"
+    },
+    {
+      "clip": "idle_critical",
+      "type": "Looping, base",
+      "trigger": "HP < 30",
+      "description": "Gemetar halus frekuensi tinggi, sayap merapat, ekor bergetar, postur meringkuk"
+    },
+    {
+      "clip": "sleep",
+      "type": "Looping",
+      "trigger": "isResting true, mengalahkan semua idle",
+      "description": "Meringkuk, kepala menunduk, sayap menutupi badan seperti selimut, ekor memeluk tubuh, napas sangat lambat"
+    },
+    {
+      "clip": "tap_reaction",
+      "type": "One-Shot 0.8 detik",
+      "trigger": "Layar disentuh",
+      "description": "Lompat kecil, kepala miring ke kamera, sayap mengepak gembira, ekor mengibas, lalu kembali ke idle"
+    },
+    {
+      "clip": "celebrate",
+      "type": "One-Shot 1.8 detik",
+      "trigger": "Misi selesai atau naik level",
+      "description": "Root berputar 360 derajat, lompat, sayap mengepak besar, ekor mengayun besar, kepala mendongak"
+    }
+  ],
+  "idle_auto_cycle": {
+    "rule": "Jangan putar satu idle berulang terus. Controller memilih satu varian secara acak, memutarnya sekali, menunggu jeda acak 0.5-2.0 detik, lalu memilih varian lain yang berbeda dari varian sebelumnya, selama state HP/isResting tidak berubah. Sentuhan, celebrate, atau perubahan state langsung memotong siklus dan kembali ke idle yang sesuai setelah one-shot selesai.",
+    "idle_fresh_variants": [
+      "idle_fresh",
+      "idle_fresh_a breathing",
+      "idle_fresh_b look around",
+      "idle_fresh_c wing flutter",
+      "idle_fresh_d tail wag and head tilt"
+    ],
+    "idle_tired_variants": [
+      "idle_tired",
+      "idle_tired_a heavy breath",
+      "idle_tired_b head droop and wing droop",
+      "idle_tired_c tail drag"
+    ],
+    "idle_critical_variants": [
+      "idle_critical",
+      "idle_critical_a tremble",
+      "idle_critical_b cower",
+      "idle_critical_c tail tremble"
+    ],
+    "sleep_variants": [
+      "sleep"
+    ]
+  },
+  "clips_extra": [
+    {
+      "clip": "wing_flap",
+      "type": "Looping 1.2 detik",
+      "description": "Sayap kiri/kanan mengepak berlawanan fase, ujung sayap lebih besar, dada bernapas"
+    },
+    {
+      "clip": "tail_wag",
+      "type": "Looping 1.2 detik",
+      "description": "Ekor 1-2-3-Tip mengibas berurutan, pinggul ikut bergoyang kecil, kepala menoleh berlawanan"
+    },
+    {
+      "clip": "head_look",
+      "type": "Looping 1.6 detik",
+      "description": "Kepala dan leher menoleh kiri kanan, tanduk ikut, sayap diam kecil"
+    },
+    {
+      "clip": "fire_puff",
+      "type": "One-Shot 1.0 detik",
+      "description": "Kepala mendongak lalu mendorong ke depan, dada mengembang, sayap mengepak, ekor mengibas. Ini hanya gerakan, tidak ada mesh api terpisah, jadi semburan api kecil tetap berupa gerakan kepala/dada, bukan partikel api baru"
+    },
+    {
+      "clip": "happy_bounce",
+      "type": "One-Shot 1.0 detik",
+      "description": "Lompat gembira, kaki menendang kecil, sayap mengepak, kepala miring"
+    }
+  ],
+  "all_clips": [
+    "idle_fresh",
+    "idle_fresh_a",
+    "idle_fresh_b",
+    "idle_fresh_c",
+    "idle_fresh_d",
+    "idle_tired",
+    "idle_tired_a",
+    "idle_tired_b",
+    "idle_tired_c",
+    "idle_critical",
+    "idle_critical_a",
+    "idle_critical_b",
+    "idle_critical_c",
+    "sleep",
+    "tap_reaction",
+    "celebrate",
+    "wing_flap",
+    "tail_wag",
+    "head_look",
+    "fire_puff",
+    "happy_bounce"
+  ],
+  "per_stage": {
+    "bayi": {
+      "character": "Clumsy slow, durasi loop dikali 1.2, amplitudo 1.0",
+      "level": "1-4"
+    },
+    "remaja": {
+      "character": "Energetic, durasi loop dikali 1.0, amplitudo 1.25",
+      "level": "5-10"
+    },
+    "dewasa": {
+      "character": "Majestic calm, durasi loop terpanjang dari tiga tahap (idle_fresh 3.2 dtk, sleep 4.2 dtk), amplitudo 0.85, paling tenang",
+      "level": "11+"
+    }
+  },
+  "how_to_move_one_part_alone": {
+    "three_js_wing": "gltf.scene.getObjectByName('Wing_L').rotation.z += 0.35; // hanya sayap kiri, sayap kanan diam",
+    "three_js_wing_tip": "gltf.scene.getObjectByName('Wing_L_Tip').rotation.z += 0.35;",
+    "three_js_tail": "gltf.scene.getObjectByName('Tail_3').rotation.y += 0.35; // hanya ekor tengah-ujung, badan diam",
+    "three_js_head": "gltf.scene.getObjectByName('Head').rotation.y += 0.25;",
+    "unity_wing": "transform.Find('Root/Hips/Spine/Chest/Wing_L')",
+    "unity_tail": "transform.Find('Root/Hips/Tail_1/Tail_2/Tail_3')",
+    "note": "Di model_viewer_plus, hanya klip penuh yang bisa dipilih, bukan joint tunggal. Kontrol joint tunggal butuh Three.js/WebGL, Unity, atau Godot dengan nama joint di atas."
+  },
+  "deformation_verification": {
+    "method": "Linear-blend skinning di Python: putar satu joint 20 derajat, hitung perpindahan vertex = bobot joint x (rotasi x (vertex - joint) - (vertex - joint)). Region: wing = vertex dalam 0.30 dari Wing_L_Tip, tail = dalam 0.30 dari Tail_3, torso = dalam 0.30 dari Chest.",
+    "bayi": {
+      "wing_L_tip_20deg_Z": {
+        "wing_mean": 0.0456,
+        "wing_n": 3071,
+        "torso_mean": 0.0,
+        "torso_n": 168
+      },
+      "tail_3_20deg_Y": {
+        "tail_mean": 0.015,
+        "tail_n": 5080,
+        "torso_mean": 0.0
+      }
+    },
+    "remaja": {
+      "wing_L_tip_20deg_Z": {
+        "wing_mean": 0.0218,
+        "wing_n": 4013,
+        "torso_mean": 0.0008,
+        "torso_n": 7955
+      },
+      "tail_3_20deg_Y": {
+        "tail_mean": 0.0342,
+        "tail_n": 1583,
+        "torso_mean": 0.0
+      }
+    },
+    "bufferViews_out_of_range": 0,
+    "weights_sum": "1.0000 min dan max di kedua model",
+    "dewasa": {
+      "wing_L_tip_20deg_Z": {
+        "wing_mean": 0.042,
+        "wing_n": 3439,
+        "torso_mean": 0.0,
+        "torso_n": 30010
+      },
+      "tail_3_20deg_Y": {
+        "tail_mean": 0.0188,
+        "tail_n": 3845,
+        "torso_mean": 0.0
+      },
+      "bind_pose_max_error": 5.242872969102308e-08,
+      "weights_sum": "0.99999995 min, 1.00000005 max",
+      "bufferViews_out_of_range": 0
+    }
+  },
+  "honest_limits": [
+    "Tail_Tip adalah titik kontrol di luar ujung mesh (Tail_3 + arah ekor x 0.18), jadi tidak ada vertex dengan bobot Tail_Tip > 0.5 di kedua model (mean bobot 0.006). Gerakan ujung ekor yang tajam tetap lewat Tail_3, Tail_Tip hanya menambah lentur kecil.",
+    "Wing_R_Tip bayi juga tidak ada vertex dengan bobot > 0.5 (mean 0.021), karena sayap kanan bayi lebih menyatu dengan badan/sayap kiri di klaster mesh. Sayap kanan tetap bergerak lewat Wing_R (mean 0.032, 1940 vertex > 0.5), tapi ujungnya lebih lembut dibanding Wing_L_Tip.",
+    "Mesh tetap satu primitive menyatu, jadi tidak ada mesh mata, mulut, atau api terpisah untuk kedip atau semburan api sendiri. Kedip mata dan bentuk mulut masih butuh mesh wajah terpisah atau morph target, yang rig ini tidak buat-buat.",
+    "Posisi joint adalah estimasi dari klaster vertex, bukan tulang artis dari rig asli Meshy. Semua koordinat tercatat di atas supaya bisa dikoreksi di Blender bila Hakim mau penempatan tulang yang persis.",
+    "Dewasa: Tail_Tip juga titik kontrol di ujung luar mesh (Tail_3 + arah ekor x 0.18), gerakan ujung tajam tetap lewat Tail_3, sama seperti bayi/remaja.",
+    "Dewasa: posisi LegBL/LegBR adalah estimasi paling lemah di model ini, klaster kaki belakang menyatu dengan kolom ekor di tengah sehingga setelah kolom ekor dikeluarkan, rata-rata kaki belakang ada di X +/-0.08, Z -0.16. Kaki belakang tetap bergerak lewat joint itu, tapi wilayah pengaruhnya lebih sempit dari kaki depan; koreksi persisnya perlu Blender.",
+    "Dewasa: lompatan bobot maksimum antar tetangga setelah smoothing masih 0.2219 (turun dari 0.2893); itu terjadi di sedikit tepi batas wilayah joint pada mesh Meshy yang tessellation-nya tidak beraturan. Nilai p99 hanya 0.0653 dan tes sampling animasi tidak menemukan vertex yang melonjak dari tetangganya, jadi sisa lompatan ini tidak menghasilkan spike gerakan yang terukur.",
+    "Joint dewasa adalah estimasi dari klaster vertex mesh dewasa sendiri (postur horizontal, tulang belakang sepanjang Z), bukan menyalin koordinat bayi/remaja."
+  ],
+  "source_models": {
+    "drako_bayi_6lite.glb": {
+      "bytes": 8637252,
+      "vertices": 72191,
+      "faces": 128444,
+      "images": 3,
+      "animations_source": 0,
+      "skins_source": 0
+    },
+    "drako_remaja_6lite.glb": {
+      "bytes": 7730104,
+      "vertices": 56518,
+      "faces": 99428,
+      "images": 3,
+      "animations_source": 0,
+      "skins_source": 0
+    },
+    "drako_dewasa_6lite.glb": {
+      "bytes": 11518672,
+      "vertices": 92954,
+      "faces": 161608,
+      "images": 3,
+      "animations_source": 0,
+      "skins_source": 0,
+      "meshy_model": "6 Lite",
+      "credits_spent": 20
+    }
+  },
+  "adult_orientation": {
+    "finding": "Mesh dewasa berbeda proporsi dari bayi/remaja: batas X -0.95..0.95 (rentang sayap), Y -0.47..0.47 (tinggi), Z -0.74..0.72 (panjang badan). Dari klaster vertex: Y tetap sumbu tegak, X rentang sayap kiri-kanan, Z panjang badan, kepala di +Z (klaster depan-atas rata-rata (0, 0.36, 0.46)), ekor di -Z menempel tanah (rata-rata (0, -0.34, -0.64)), sayap di +/-X, kaki di Y < -0.32. Jadi model TIDAK terbalik: yang berbeda adalah posturnya, quadruped horizontal dengan tulang belakang sejajar tanah (sepanjang Z), sedangkan bayi duduk tegak (tulang belakang sepanjang Y).",
+    "correction": "Tidak ada rotasi koreksi di node Root. Root node dewasa ditempatkan tepat di posisi joint Root-nya sehingga bind pose persis (kesalahan maksimum 5.2e-08, terverifikasi), dan rantai Spine-Chest-Neck-Head ditempatkan sepanjang Z mengikuti postur horizontal. Catatan: di file bayi/remaja node Root ada di origin sehingga seluruh mesh bergeser seragam sebesar posisi Root-nya saat bind pose; dewasa tidak mengulangi itu."
+  },
+  "animation_sampling_verification": {
+    "method": "Setiap klip disampling skinning penuh (hierarki + LBS) di 25 titik waktu. Untuk tiap langkah antar sampel dihitung perpindahan vertex maksimum; spike dinyatakan bila langkah maksimum jauh melebihi median langkah klip itu. Juga dicek langkah rotasi joint antar sampel (selain Root) dan vertex yang bergerak jauh dari rata-rata tetangganya di tiap sampel.",
+    "result_per_clip": {
+      "idle_fresh": {
+        "max_step": 0.0237,
+        "median_step": 0.017,
+        "ratio": 1.4,
+        "max_joint_step_deg": 2.2,
+        "neighbour_flagged": 0
+      },
+      "idle_fresh_a": {
+        "max_step": 0.011,
+        "median_step": 0.008,
+        "ratio": 1.38,
+        "max_joint_step_deg": 0.9,
+        "neighbour_flagged": 0
+      },
+      "idle_fresh_b": {
+        "max_step": 0.0237,
+        "median_step": 0.0174,
+        "ratio": 1.36,
+        "max_joint_step_deg": 3.0,
+        "neighbour_flagged": 0
+      },
+      "idle_fresh_c": {
+        "max_step": 0.0361,
+        "median_step": 0.0254,
+        "ratio": 1.42,
+        "max_joint_step_deg": 3.9,
+        "neighbour_flagged": 0
+      },
+      "idle_fresh_d": {
+        "max_step": 0.0254,
+        "median_step": 0.0182,
+        "ratio": 1.39,
+        "max_joint_step_deg": 3.1,
+        "neighbour_flagged": 0
+      },
+      "idle_tired": {
+        "max_step": 0.0036,
+        "median_step": 0.0026,
+        "ratio": 1.37,
+        "max_joint_step_deg": 0.5,
+        "neighbour_flagged": 0
+      },
+      "idle_tired_a": {
+        "max_step": 0.0049,
+        "median_step": 0.0036,
+        "ratio": 1.37,
+        "max_joint_step_deg": 0.5,
+        "neighbour_flagged": 0
+      },
+      "idle_tired_b": {
+        "max_step": 0.0048,
+        "median_step": 0.0035,
+        "ratio": 1.37,
+        "max_joint_step_deg": 0.8,
+        "neighbour_flagged": 0
+      },
+      "idle_tired_c": {
+        "max_step": 0.0096,
+        "median_step": 0.0068,
+        "ratio": 1.41,
+        "max_joint_step_deg": 0.8,
+        "neighbour_flagged": 0
+      },
+      "idle_critical": {
+        "max_step": 0.039,
+        "median_step": 0.0212,
+        "ratio": 1.84,
+        "max_joint_step_deg": 2.7,
+        "neighbour_flagged": 0
+      },
+      "idle_critical_a": {
+        "max_step": 0.0401,
+        "median_step": 0.0219,
+        "ratio": 1.84,
+        "max_joint_step_deg": 3.3,
+        "neighbour_flagged": 0
+      },
+      "idle_critical_b": {
+        "max_step": 0.0036,
+        "median_step": 0.0026,
+        "ratio": 1.37,
+        "max_joint_step_deg": 0.5,
+        "neighbour_flagged": 0
+      },
+      "idle_critical_c": {
+        "max_step": 0.0494,
+        "median_step": 0.0274,
+        "ratio": 1.81,
+        "max_joint_step_deg": 7.0,
+        "neighbour_flagged": 0
+      },
+      "sleep": {
+        "max_step": 0.004,
+        "median_step": 0.0029,
+        "ratio": 1.37,
+        "max_joint_step_deg": 0.4,
+        "neighbour_flagged": 0
+      },
+      "tap_reaction": {
+        "max_step": 0.026,
+        "median_step": 0.0189,
+        "ratio": 1.38,
+        "max_joint_step_deg": 2.0,
+        "neighbour_flagged": 0
+      },
+      "celebrate": {
+        "max_step": 0.3945,
+        "median_step": 0.2954,
+        "ratio": 1.34,
+        "max_joint_step_deg": 9.7,
+        "neighbour_flagged": 0
+      },
+      "wing_flap": {
+        "max_step": 0.0497,
+        "median_step": 0.0348,
+        "ratio": 1.43,
+        "max_joint_step_deg": 5.3,
+        "neighbour_flagged": 0
+      },
+      "tail_wag": {
+        "max_step": 0.0332,
+        "median_step": 0.0234,
+        "ratio": 1.42,
+        "max_joint_step_deg": 3.5,
+        "neighbour_flagged": 0
+      },
+      "head_look": {
+        "max_step": 0.0324,
+        "median_step": 0.0236,
+        "ratio": 1.38,
+        "max_joint_step_deg": 3.5,
+        "neighbour_flagged": 0
+      },
+      "fire_puff": {
+        "max_step": 0.028,
+        "median_step": 0.0188,
+        "ratio": 1.48,
+        "max_joint_step_deg": 2.4,
+        "neighbour_flagged": 0
+      },
+      "happy_bounce": {
+        "max_step": 0.0498,
+        "median_step": 0.0244,
+        "ratio": 2.04,
+        "max_joint_step_deg": 3.4,
+        "neighbour_flagged": 0
+      }
+    },
+    "conclusion": "Tidak ada klip yang spike: rasio langkah maksimum terhadap median terburuk adalah happy_bounce 2.04, semua klip lain di bawah itu; langkah rotasi joint terbesar 9.7 derajat per langkah (celebrate, sayap); 0 vertex-sampel yang terflag bergerak jauh dari tetangganya di semua klip."
+  }
+}
