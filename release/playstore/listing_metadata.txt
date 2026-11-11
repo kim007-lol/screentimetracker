@@ -1,0 +1,91 @@
+# METADATA LISTING GOOGLE PLAY STORE
+================================================================================
+
+## 1. NAMA APLIKASI (Maksimal 30 Karakter)
+--------------------------------------------------------------------------------
+Pilihan Rekomendasi 1 (21 karakter):
+Screen Time Companion
+
+Pilihan Rekomendasi 2 (24 karakter):
+Screen Time Tracker Momo
+
+Pilihan Alternatif (27 karakter):
+Screen Time & Habit Tracker
+
+
+## 2. DESKRIPSI SINGKAT (Maksimal 80 Karakter)
+--------------------------------------------------------------------------------
+Pilihan 1 (71 karakter):
+Kurangi doomscroll & bangun kebiasaan sehat bersama pendamping 3D Momo.
+
+Pilihan 2 (76 karakter):
+Pelacak waktu layar sadar dengan pendamping 3D Momo & jeda anti-doomscroll.
+
+Pilihan 3 (Bahasa Inggris - 75 karakter):
+Mindful screen time tracker with 3D companion & conscious doomscroll pause.
+
+
+## 3. DESKRIPSI LENGKAP (Maksimal 4.000 Karakter)
+--------------------------------------------------------------------------------
+Berapa banyak waktu yang hilang tanpa sadar karena membuka media sosial dan video pendek? 
+
+Screen Time Tracker hadir bukan sebagai polisi HP yang memblokir secara kaku, melainkan sebagai cermin kesadaran digital (*digital wellbeing*) yang hangat bersama Momo — pendamping 3D interaktif yang kondisinya mencerminkan keseimbangan hidupmu.
+
+Berdasarkan studi ilmiah psikologi perilaku, interupsi sadar (*conscious friction*) beberapa detik sebelum membuka aplikasi pemicu terbukti menurunkan waktu layar berlebih hingga ~57%. Di sini, kamu diajak membangun kebiasaan sehat tanpa rasa bersalah.
+
+✨ FITUR-FITUR UTAMA:
+
+🐾 PENDAMPING 3D INTERAKTIF (MOMO)
+• Kondisi Momo mencerminkan hari ini: Segar saat seimbang, Lelah saat banyak scroll, dan Kritis saat waktu layarmu berlebihan.
+• Sentuh Momo untuk melihat reaksinya secara langsung!
+• Kumpulkan XP dari aktivitas sehat untuk mengevolusikan Momo dari Bayi, Remaja, hingga Dewasa.
+
+⏸️ JEDA SADAR (CONSCIOUS PAUSE)
+• Interupsi hangat selama 3–10 detik sebelum membuka aplikasi adiktif (Instagram, TikTok, YouTube Shorts, Facebook).
+• Beri ruang untuk bertanya: "Mau ngapain di aplikasi ini?"
+• Bebas memilih untuk membatalkan atau tetap lanjut — tanpa pemblokiran paksa!
+
+⏳ MISI OFFLINE & BANK WAKTU
+• Ubah kebiasaan nyata menjadi reward digital.
+• Selesaikan misi offline: Jalan santai, Membaca buku, Belajar / Deep work, Bereskan kamar, atau Olahraga.
+• Dapatkan saldo menit di Bank Waktu yang dapat ditukarkan untuk kuota layar tambahan.
+
+📊 REKAP LENGKAP SEMUA APLIKASI
+• Analitik mendalam: total durasi, frekuensi buka aplikasi, sesi terpanjang, dan tren harian/mingguan.
+• Pengelompokan kategori: Sosial, Hiburan, Produktivitas, Kerja, dan Belajar.
+• Insight pemakaian larut malam (22:00 – 06:00) untuk menjaga kualitas tidurmu.
+• Kartu rekap Wrapped estetik yang siap dibagikan ke teman atau media sosial.
+
+⚔️ DUEL SEHAT OFFLINE
+• Tantang teman untuk menjaga waktu layar dan scroll terendah setiap minggu.
+• Berbagi kode duel berbasis teks secara instan tanpa perlu akun atau server eksternal.
+
+🔒 PRIVASI 100% LOKAL & AMAN
+• Tanpa Akun & Tanpa Login: Langsung pakai tanpa mendaftar.
+• Data Tersimpan di Perangkat: Kami tidak memiliki server untuk menyimpan data pribadimu.
+• Tanpa Iklan & Tanpa Pelacak Pihak Ketiga: Fokus murni pada kesehatan digitalmu.
+• Izin Transparan: Hanya meminta izin Akses Pemakaian Android (Usage Access) dan Aksesibilitas opsional murni untuk mendeteksi event scroll, bukan membaca isi chat atau teks pribadimu.
+
+Kembalikan kendali atas waktumu hari ini bersama Screen Time Tracker & Momo!
+
+
+## 4. PANDUAN UPLOAD ASET VISUAL
+--------------------------------------------------------------------------------
+Folder File Siap Pakai:
+C:\Users\zoan\Documents\development\test\ScreenTime Tracker\release\playstore\
+
+1. Ikon Aplikasi (Wajib 512x512 px, < 1 MB):
+   -> Gunakan: release\playstore\icon-512.png (512x512 px, 241 KB)
+   (Catatan: Jangan upload playstore-icon-raw.png yang 1024x1024 karena akan ditolak Play Console)
+
+2. Gambar Fitur / Feature Graphic (Wajib 1024x500 px, < 15 MB):
+   -> Gunakan: release\playstore\feature-graphic-1024x500.png (1024x500 px, 613 KB)
+
+3. Screenshot Ponsel (Minimal 2, Rasio 9:16):
+   -> Gunakan 6 screenshot siap pakai di folder: release\playstore\screenshots\
+      - 01_beranda_companion_3d.png
+      - 02_rekap_dan_analitik.png
+      - 03_jeda_sadar_conscious_pause.png
+      - 04_misi_offline_bank_waktu.png
+      - 05_duel_offline_teman.png
+      - 06_pengaturan_privasi_lokal.png

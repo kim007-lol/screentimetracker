@@ -56,3 +56,4 @@ Halaman Kebijakan Privasi dapat diakses secara publik melalui tautan berikut:
 
 * Pengembang: **kim007-lol**
 * Kontak Pertanyaan / Privasi: `agentkimdev@gmail.com` / `ngabdullahhakim99@gmail.com`
+
